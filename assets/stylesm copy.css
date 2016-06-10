@@ -1,0 +1,966 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	margin: 0;
+	padding: 0;
+	font-family:Arial, Helvetica, sans-serif;
+	background-color: #a9c9fc;
+}
+
+#wrapper{
+width: 80%;
+
+margin: 5px auto;
+background-color: #a9c9fc;
+text-align: left;
+
+position: relative;
+}
+
+
+#comLogo  {
+	background: url('cl_logo.jpg') bottom left no-repeat;
+height: 122px;
+width: 225px;
+margin: 10px 0 0 80px;
+float: left;
+
+}
+
+#comLogoY  {
+	background: url('yogananda_02.jpg') bottom left no-repeat;
+height: 122px;
+width: 103px;
+margin: 10px 0 0 40px;
+float: left;
+
+}
+
+#comLogoY img {
+	border: 1px solid black;
+	opacity: .7;
+}
+
+
+
+	#quote {
+    position:absolute;
+    top: 70px; left: 500px;
+  font-size: 16px;
+    height: 35px;
+    width: 500px;
+    margin: 0 0 0 0;
+
+    float: left;
+    
+    color: rgba(0, 0, 0, .6);
+padding: 0px 0 0 20px;
+}
+
+
+/*
+.video1 p, .video2 p, .video3 p  {
+	display: none;
+	
+}
+*/
+
+	.video1  {
+	float: left;
+	padding-bottom: 25%;
+	width: 31.33%;
+	position: relative;
+	margin: 1% 1% 100px 1%;
+  
+}
+
+
+
+
+.video1 iframe  {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+
+
+
+
+	.video2  {
+	float: left;
+	padding-bottom: 17.56%;
+	width: 31.33%;
+	position: relative;
+	margin: 1% 1% 100px 1%;
+  
+}
+
+	
+
+
+
+
+.video2 iframe  {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+
+
+
+.video3 {
+	float: left;
+	padding-bottom: 17.56%;
+	width: 31.33%;
+	position: relative;
+	margin: 1% 1% 100px 1%;
+  
+}
+
+
+
+.video3 iframe  {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+
+.video4 {
+display: none;
+  
+}
+
+
+
+
+
+
+
+
+
+/*
+ 
+
+.video1 p, .video2 p, .video3 p  {
+	margin: 20px 0 0 0;
+}
+
+
+
+
+.vid1Cont  {
+	min-width: 250px;
+	max-width: 420px;
+	float: left;
+	margin: 20px 20px 20px 100px;
+	
+}
+
+.video1  {
+	position: relative;
+	padding-bottom: 75%;
+	margin: 0;
+	
+}
+
+.video1 iframe  {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+
+.vid2Cont  {
+	min-width: 250px;
+	max-width: 420px;
+	float: left;
+	margin: 20px 20px;
+}
+
+.video2  {
+	position: relative;
+	padding-bottom: 56.25%;
+	
+}
+
+
+
+.video2 iframe  {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+
+.vid3Cont  {
+	min-width: 250px;
+	max-width: 420px;
+	float: left;
+	margin: 20px 20px;
+}
+
+.video3  {
+	position: relative;
+	padding-bottom: 56.25%;
+	
+}
+
+
+
+.video3 iframe  {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+*/
+
+
+	
+	#nav {
+    position:absolute;
+    background-color: rgba(0,0,0,.55);
+    top: 20px; left: 500px;
+    padding: 0 0 0 0;
+    height: 40px;
+    width: 520px;
+    margin: 0 0 0 0;
+    /*width: 100%; */
+
+
+}
+
+
+#nav  {
+color: rgba(0, 0, 0, .6);
+padding: 0 0 0 0;
+
+}
+
+
+
+
+
+#nav ul  {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+}
+
+#nav > ul {padding-left: 0px;}
+
+
+
+/* #nav ul::after  {
+	content: '';
+	display: block;
+	clear: both; */
+	
+}
+
+#nav ul li:hover  {
+	background-color: rgba(0, 0, 0, .6);
+}
+
+#nav ul li:hover > ul  {
+	display: block;
+	
+	
+}
+
+#nav ul li a {
+	display: inline-block;
+	color: #fff;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+	
+	width:125px;
+	position: relative;
+	
+	
+}
+
+
+#nav ul li a:visited  { color: #fff; }
+
+#nav ul li a:hover  { color: #dd0911; }
+
+#nav ul li a:hover > ul   {
+	background-color:  #dde5f0; 
+	/*#dd0911;*/
+}
+
+#nav ul ul  {
+	position: absolute;
+	top: 100%;
+	background-color: #2b0306; 
+	
+	display: none; 
+
+	width: 145px;
+	padding: 0 0 0 0px;
+	background-color: rgba(0,102,100,.8);
+	z-index: 100;
+}
+	
+	/* top level */
+	
+	#nav > ul > li  {
+	float: left;
+	
+}
+
+
+
+#nav > ul > li > a {
+	
+	padding: 10px 20px 15px 20px;
+	width: auto;
+}
+
+
+
+
+
+
+
+
+
+
+.active  {
+	height: 330px;
+	width: 930px;
+	/* padding: 50px 0 0 30px; */
+	background: url('banner1.jpg') bottom left no-repeat;
+	clear:both;
+	
+	
+}
+
+
+
+
+
+
+.c2  {
+	height: 330px;
+	width: 930px;
+	
+	clear:both;
+	
+	background: url('banner2.jpg') bottom left no-repeat;	
+}
+
+
+
+.c3  {
+	height: 330px;
+	width: 930px;
+	
+	clear:both;
+	
+	background: url('banner3.jpg') bottom left no-repeat;
+}
+
+
+
+.c4  {
+	height: 330px;
+	width: 930px;
+	
+	clear:both;
+	
+	background: url('banner4.jpg') bottom left no-repeat;
+}
+
+
+
+.c5  {
+	height: 330px;
+	width: 930px;
+	
+	clear:both;
+	
+	background: url('banner5.jpg') bottom left no-repeat;
+}
+
+
+
+.c6  {
+	height: 330px;
+	width: 930px;
+	
+	clear:both;
+	
+	background: url('banner6.jpg') bottom left no-repeat;
+}
+
+
+
+.c7  {
+	height: 330px;
+	width: 930px;
+	
+	clear:both;
+	
+	background: url('banner7.jpg') bottom left no-repeat;
+}
+
+
+
+
+
+
+	
+	
+
+
+#slideshow {
+    position:relative;
+    height:330px;
+    width: 930px;
+    margin: 20px auto 0 auto;
+    border: solid 2px black;
+
+}
+
+#slideshow DIV {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:8;
+    opacity:0.0;
+    height: 330px;
+    background-color: #FFF;
+}
+
+#slideshow DIV.active {
+    z-index:10;
+    opacity:1.0;
+}
+
+#slideshow DIV.last-active {
+    z-index:9;
+}
+
+#slideshow DIV IMG {
+    height: 330px;
+    display: block;
+    border: 0;
+   
+}
+
+.mainText  {
+	width: 70%;
+	height: 100%;
+	 margin: 30px auto;
+	-webkit-columns: 2 300px;
+	-moz-columns: 2 300px;
+	columns: 2 300px;
+	-webkit-column-gap: 2em;
+	-moz-column-gap: 2em;
+	column-gap: 2em;
+  
+	-webkit-column-break-inside: avoid; /* Chrome, Safari, Opera */
+        page-break-inside: avoid; /* Firefox */
+        break-inside: avoid; /* IE 10+ */
+	
+
+
+	
+}
+
+
+
+
+/*
+.mainText  {
+	width: 900px;
+	height: 215px;
+	margin: 25px auto 15px auto;
+	column-count: 2;
+	-webkit-column-count: 2;
+	-moz-column-count: 2;
+	-webkit-column-gap: 40px;
+	-moz-column-gap: 40px;
+	column-gap: 40px;
+
+	
+}
+
+*/
+
+
+/*
+
+.column1  {
+width: 430px;
+height: 215px;
+float: left;
+margin: 25px 0 15px 130px;
+
+	
+}
+
+.column2  {
+width: 430px;
+height: 215px;
+float: left;
+margin: 25px 0 15px 20px;
+
+	
+}
+
+*/
+
+
+
+
+
+ul.nav a:hover{
+/* background-color: #FBFCF9; */
+background-color: red;
+}
+
+#thanks a:link, #thanks a:visited, ul.cv a:link, ul.cv a:visited, h3 a:link, h3 a:visited, h4 a:link, h4 a:visited {
+display:inline;
+color:#6801ff;
+text-decoration: none;
+outline: none;
+}
+
+
+
+#thanks a:hover, #thanks a:active, ul.cv a:hover, ul.cv a:active, h3 a:hover, h3 a:active, h4 a:hover, h4 a:active {
+	color: #6801ff;
+	text-decoration: underline;
+	outline: none;
+	}
+
+
+
+
+
+	#thanks {
+	color: black;
+	font-size: 11px;
+	text-align: center;
+	height: 15px;
+	width: 930px;
+	margin: 0 0 10px 0;
+	float: left;
+	clear: both;
+	
+	}
+
+	#copyright {
+	color: black;
+	font-size: 12px;
+	text-align: center;
+	height: 15px;
+	width: 930px;
+	margin: 0;
+	float: left;
+	clear: both;
+	
+	}
+
+.clear {
+clear: both;
+}
+
+
+
+/* media queries */
+
+
+@media screen and (max-width: 1140px)  {
+	
+	
+		.video1  {
+	
+	padding-bottom: calc(75% * .32);
+	width: 32%;
+	min-width: 250px;
+	margin: 1% 4% 100px 4%;
+  
+}
+
+
+
+
+
+
+
+
+
+	.video2  {
+	
+	padding-bottom: calc(56.25% * .32);
+	width: 32%;
+	min-width: 250px;
+	margin: 1% 4% 100px 4%;
+  
+}
+
+	
+
+
+
+
+
+
+
+
+.video3 {
+	
+	padding-bottom: calc(56.25% * .56);
+	width: 56%;
+	min-width: 250px;
+	margin: 1% 12% 100px 12%;
+  
+}
+
+
+
+
+
+	
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 625px)  {
+	
+	
+	#wrapper{
+width: 96%;
+
+
+background-color: #a9c9fc;
+text-align: left;
+
+position: relative;
+}
+
+
+
+
+#comLogo  {
+height: 114px;
+width: 67%;
+display: block;
+float: left;
+margin: 0 0 0 0;
+background: url('cl_logo_210.jpg') bottom left no-repeat;
+
+;
+}
+
+
+
+#comLogoY  {
+height: 114px;
+width: 28.6%;
+display: block;
+float: left;
+margin: 0;
+background: url('yogananda_90.jpg') bottom left no-repeat;
+
+
+}
+
+#comLogoY img {
+	border: 1px solid black;
+	opacity: .7;
+}
+
+
+
+
+	#quote {
+
+ 
+position: static;
+  font-size: 16px;
+
+
+    height: 52px;
+      width: 250px;
+    display: block;
+    float: left;
+  
+
+
+
+    
+    color: rgba(0, 0, 0, .8);
+
+} 
+
+
+
+.clear  {
+	
+	clear: both;
+}
+
+
+
+.active  {
+	height: 300px;
+	width: 300px;
+	/* padding: 50px 0 0 30px; */
+	background: url('banner1m.jpg') bottom left no-repeat;
+	clear:both;
+	
+	
+}
+
+
+
+
+
+
+.c2  {
+	height: 300px;
+	width: 300px;
+	
+	clear:both;
+	
+	background: url('banner2m.jpg') bottom left no-repeat;	
+}
+
+
+
+.c3  {
+	height: 300px;
+	width: 300px;
+	
+	clear:both;
+	
+	background: url('banner3m.jpg') bottom left no-repeat;
+}
+
+
+
+.c4  {
+	height: 300px;
+	width: 300px;
+	
+	clear:both;
+	
+	background: url('banner4m.jpg') bottom left no-repeat;
+}
+
+
+
+.c5  {
+	height: 300px;
+	width: 300px;
+	
+	clear:both;
+	
+	background: url('banner5m.jpg') bottom left no-repeat;
+}
+
+
+
+.c6  {
+	height: 300px;
+	width: 300px;
+	
+	clear:both;
+	
+	background: url('banner6m.jpg') bottom left no-repeat;
+}
+
+
+
+.c7  {
+	height: 300px;
+	width: 300px;
+	
+	clear:both;
+	
+	background: url('banner7m.jpg') bottom left no-repeat;
+}
+
+
+ #slideshow {
+    position:relative;
+    height:300px;
+    width: 300px;
+    margin: 30px auto;
+    border: solid 2px black;
+
+    float: none;
+}
+
+#slideshow DIV {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:8;
+    opacity:0.0;
+    height: 300px;
+    background-color: #FFF;
+}
+
+#slideshow DIV.active {
+    z-index:10;
+    opacity:1.0;
+}
+
+#slideshow DIV.last-active {
+    z-index:9;
+}
+
+#slideshow DIV IMG {
+    height: 300px;
+    display: block;
+    border: 0;
+   
+}
+
+
+
+
+.column1  {
+display: none;
+
+	
+}
+
+.column2  {
+width: 100%;
+height: 365px;
+font-size: 17px;
+line-height: 160%;
+display: block;
+float: none;
+margin: 0;
+padding: 0;	
+}
+
+.column2 p  {
+margin: 0 15px;	
+	
+}
+
+
+
+		.video1  {
+	
+	padding-bottom:75%;
+	width: 100%;
+	min-width: 250px;
+	margin: 1% 0;
+	float: none;
+  
+}
+
+
+
+
+
+
+
+
+
+	.video2  {
+	
+	padding-bottom: 56.25%;
+	width: 100%;
+	min-width: 250px;
+	margin: 1% 0;
+	float: none;
+  
+}
+
+	
+
+
+
+
+
+
+
+
+.video3 {
+	
+	padding-bottom: 56.25%;
+	width: 100%;
+	min-width: 250px;
+	margin: 1% 0;
+	float: none;
+  
+}
+
+
+
+
+
+
+
+#nav  {
+	position: static;
+	width: 100%;
+	margin: 20px 0;
+	
+	
+}
+
+#thanks  {
+	display: none;
+}
+
+
+
+	#copyright {
+	color: black;
+	font-size: 12px;
+	text-align: center;
+	height: 15px;
+	width: 100%;
+	margin: 0;
+	float: none;
+	clear: both;
+	
+	}
+	
+
+	
+}
+
+
+/*
+@media screen and (max-width: 1135px)  {
+	
+	.mainText   {
+		width: 450px;
+	height: 500px;
+	margin: 25px auto 15px auto;
+	column-count: 1;
+	-webkit-column-count: 1; /* Chrome, Safari, Opera */
+	/*-moz-column-count: 1; /* Firefox */
+	
+/*	}  */
+	
+}
+
+
+
+
