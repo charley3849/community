@@ -47,6 +47,10 @@ float: left;
 	opacity: .7;
 }
 
+#quoteF   {
+	display: none;
+}
+
 
 
 	#quote {
@@ -620,8 +624,8 @@ clear: both;
 	
 	display: none;
 }
-	
-	
+
+
 	
 	
 	
@@ -761,6 +765,43 @@ float: left;
     
 
 }*/
+
+#quote   {
+	
+display: none;
+}
+
+#quoteF   {
+	
+	display: block;
+	width:160px;
+	height: 40px;
+}
+	
+
+#logoPic    {
+	
+	    display: flex;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: justify;
+    justify-content: space-around;
+	
+}
+
+
+
+#comLogo  {
+margin: 0;
+float: none;
+
+}
+
+#comLogoY  {
+
+margin: 0;
+float: none;
+
+}
 	
 	
 	
